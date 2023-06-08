@@ -33,7 +33,7 @@ const handledelete = (index)=>{
         
             <div>
                     <input type="text" value={item} onChange={(e)=>handlechange(index,e.target.value)}  />  &nbsp;
-                    <button type="button"className="delete" value={item} onClick={()=>handledelete(index)}>delete</button>  <br/>
+                    <button type="button"className="delete" value={item} onClick={()=>handledelete(index)}>Delete</button>  <br/>
      &nbsp;
                  </div>
      
@@ -43,9 +43,10 @@ const handledelete = (index)=>{
         <br/>
       
  
-        <button className="add"  onClick= {handelSet}>Add feild</button>
+        <button className="add"  onClick= {handelSet}>Add field</button>
     </div>
   )
 }
 
-export default App
+export default App;
+
